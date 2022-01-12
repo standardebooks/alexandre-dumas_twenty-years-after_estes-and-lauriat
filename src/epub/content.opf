@@ -29,17 +29,29 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Twenty Years After</dc:title>
 		<meta property="file-as" refines="#title">Twenty Years After</meta>
-		<dc:subject id="subject-1">France -- History -- Louis XIV, 1643-1715 -- Fiction</dc:subject>
+		<dc:subject id="subject-1">Historical fiction</dc:subject>
+		<dc:subject id="subject-2">France -- History -- Louis XIV, 1643-1715 -- Fiction</dc:subject>
+		<dc:subject id="subject-3">Adventure stories</dc:subject>
+		<dc:subject id="subject-4">Swordsmen -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">sh2008115096</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="term" refines="#subject-1">sh85061165</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh2008115096</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh85001072</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2010115233</meta>
+		<meta property="se:subject">Adventure</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
-		<dc:language>en-GB</dc:language>
+		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1259</dc:source>
-		<dc:source>IA_URL</dc:source>
+		<!-- volume 1, chapters 1-44 -->
+		<dc:source>https://books.google.com/books?id=_ClKAQAAMAAJ</dc:source>
+		<!-- volume 2, chapters 45-90 -->
+		<dc:source>https://books.google.com/books?id=UAJAAAAAYAAJ</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
