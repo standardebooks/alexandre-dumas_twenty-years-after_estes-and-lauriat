@@ -52,7 +52,7 @@
 		<dc:source>https://books.google.com/books?id=_ClKAQAAMAAJ</dc:source>
 		<!-- volume 2, chapters 45-90 -->
 		<dc:source>https://books.google.com/books?id=EQUEAAAAYAAJ</dc:source>
-		<meta property="se:production-notes">The transcription was missing all italics and diacritics; these had to be added manually. It was also missing all indications of letters, songs, verse, etc. It also treated the bridgeheads as chapter titles, and in many cases truncated them; these have been restored and reverted to bridgeheads in this production.</meta>
+		<meta property="se:production-notes">The transcription was missing all italics and diacritics; these had to be added manually. It was also missing all indications of letters, songs, verse, etc. Many of the chapter titles were truncated; the text has been restored. There were a number of capitalization issues that were corrected in editorial commits.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Twenty_Years_After</meta>
