@@ -1,5 +1,15 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+
+blockquote[xml|lang]{
+	font-style: italic;
+}
+
+blockquote[xml|lang] em,
+blockquote[xml|lang] i,{
+	font-style: normal;
+}
 
 /* letters */
 footer{
@@ -19,8 +29,8 @@ footer{
 
 footer > p[epub|type~="z3998:postscript"]{
 	margin-top: 1em;
-	text-indent: 0;
 	text-align: initial;
+	text-indent: 0;
 }
 /* end of letters */
 
@@ -32,8 +42,8 @@ footer > p[epub|type~="z3998:postscript"]{
 
 [epub|type~="z3998:song"] p > span{
 	display: block;
-	text-indent: -1em;
 	padding-left: 1em;
+	text-indent: -1em;
 }
 
 [epub|type~="z3998:song"] p > span + br{
@@ -41,7 +51,7 @@ footer > p[epub|type~="z3998:postscript"]{
 }
 
 p span.i1{
-	text-indent: -1em;
 	padding-left: 2em;
+	text-indent: -1em;
 }
 /* end of poem/verse/song */
