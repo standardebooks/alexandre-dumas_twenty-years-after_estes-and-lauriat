@@ -6,12 +6,6 @@
 			<reason>D’Artagnan should be capitalized since it's the first word in the titles.</reason>
 		</ignore>
 	</file>
-	<file path="chapter-9.xhtml">
-		<ignore>
-			<code>s-060</code>
-			<reason>The song title is italicized because it's French.</reason>
-		</ignore>
-	</file>
 	<file path="chapter-61.xhtml">
 		<ignore>
 			<code>s-023</code>
