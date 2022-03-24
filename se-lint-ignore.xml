@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="chapter-6.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>D’Artagnan should be capitalized since it's the first word in the titles.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-9.xhtml">
+		<ignore>
+			<code>s-060</code>
+			<reason>The song title is italicized because it's French.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-61.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>D’Artagnan should be capitalized since it's the first word in the titles.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-79.xhtml">
 		<ignore>
 			<code>t-042</code>
-			<reason>The consecutive periods are in the source scans, replicating a hand-written note.</reason>
+			<reason>The quote is a literal rendering of a note written in haste, and so the consecutive periods are correct.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
