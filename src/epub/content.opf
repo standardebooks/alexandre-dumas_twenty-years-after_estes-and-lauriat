@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/alexandre-dumas/twenty-years-after/estes-and-lauriat</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2022-03-25T20:45:35Z</dc:date>
+		<meta property="dcterms:modified">2022-03-25T20:45:35Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -42,10 +42,11 @@
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2010115233</meta>
 		<meta property="se:subject">Adventure</meta>
+		<meta property="se:subject">Fiction</meta>
 		<meta id="collection-1" property="belongs-to-collection">D’Artagnan Romances</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">2</meta>
-		<dc:description id="description">Four musketeers are drawn back together by current events after many years apart, try to save Charles I from Cromwell, and are pursued by the now grown son of a former female adversary.</dc:description>
+		<dc:description id="description">Four musketeers are drawn back together by current events after many years apart, try to save Charles I from Cromwell, and are pursued by the now-grown son of a former female adversary.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Twenty years after Aramis, Athos, Porthos, and d’Artagnan went their separate ways, the new cardinal, Mazarin, asks d’Artagnan to find his three friends and enlist them to help Mazarin during the Fronde civil war. Only Porthos accepts, and the four musketeers soon find themselves on opposite sides of the conflict. This cannot, of course, last very long, and they ultimately join forces in England to try to rescue Charles I from Cromwell. Along the way, they are discovered and pursued by the son of Milady, their diabolical female adversary from &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/alexandre-dumas/the-three-musketeers/william-robson"&gt;The Three Musketeers&lt;/a&gt;&lt;/i&gt;.&lt;/p&gt;
 			&lt;p&gt;Though not as well known as the first installment, &lt;i&gt;Twenty Years After&lt;/i&gt; continues the wit, charm, friendship, and most of all the adventures that &lt;a href="https://standardebooks.org/ebooks/alexandre-dumas"&gt;Dumas&lt;/a&gt; made famous in &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/alexandre-dumas/the-three-musketeers/william-robson"&gt;The Three Musketeers&lt;/a&gt;&lt;/i&gt;.&lt;/p&gt;
@@ -56,9 +57,9 @@
 		<dc:source>https://books.google.com/books?id=_ClKAQAAMAAJ</dc:source>
 		<!-- volume 2, chapters 45-90 -->
 		<dc:source>https://books.google.com/books?id=EQUEAAAAYAAJ</dc:source>
-		<meta property="se:production-notes">The transcription was missing all italics and diacritics; these had to be added manually. It was also missing all indications of letters, songs, verse, etc. Many of the chapter titles were truncated; the text has been restored. There were a number of capitalization issues that were corrected in editorial commits.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:production-notes">Many of the chapter titles were truncated; the text has been restored. There were a number of capitalization issues that were corrected in editorial commits.</meta>
+		<meta property="se:word-count">245228</meta>
+		<meta property="se:reading-ease.flesch">72.05</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Twenty_Years_After</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/alexandre-dumas_twenty-years-after_estes-and-lauriat</meta>
 		<dc:creator id="author">Alexandre Dumas</dc:creator>
@@ -78,8 +79,8 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Rembrandt</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79142935</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">Anonymous</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">Anonymous</meta>
+		<dc:contributor id="transcriber-1">An Anonymous Volunteer</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Anonymous Volunteer, An</meta>
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
 		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
