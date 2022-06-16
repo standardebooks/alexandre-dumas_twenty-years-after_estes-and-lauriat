@@ -28,7 +28,7 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Twenty Years After</dc:title>
 		<meta property="file-as" refines="#title">Twenty Years After</meta>
-		<meta property="se:alternate-title" refines="#title">20 Years After</meta>
+		<meta property="dcterms:alternate" refines="#title">20 Years After</meta>
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
 		<dc:subject id="subject-2">France -- History -- Louis XIV, 1643-1715 -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Adventure stories</dc:subject>
