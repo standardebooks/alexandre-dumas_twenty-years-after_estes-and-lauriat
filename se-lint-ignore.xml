@@ -14,7 +14,7 @@
 	</file>
 	<file path="chapter-79.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-016</code>
 			<reason>The quote is a literal rendering of a note written in haste, and so the consecutive periods are correct.</reason>
 		</ignore>
 	</file>
